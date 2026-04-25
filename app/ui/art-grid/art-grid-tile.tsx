@@ -18,13 +18,13 @@ export default function ArtGridTile({image}: {image: GalleryImageProperties}) {
                         height={image.height} />
                 </div>
                 <div className="px-1">
-                    <p className="font-label text-[10px] tracking-[0.1em] uppercase font-bold text-on-surface mb-1">{image.title}</p>
+                    <p className="font-label sm:text-[8px] md:text-[10px] lg:text-[12px] tracking-[0.1em] uppercase font-bold text-on-surface mb-1">{image.title}</p>
                     {image.lines.map((line, id) => {
                         return (
-                            <p key={`line-${id}`} className="font-headline italic text-on-surface-variant text-sm mb-1">{line}</p>
+                            <p key={`line-${id}`} className="font-headline italic text-on-surface-variant sm:text-[8px] md:text-[10px] lg:text-[12px] mb-1">{line}</p>
                         )
                     })}
-                    <p className="font-label text-[10px] tracking-[0.1em] uppercase font-bold text-outline">{image.artist}</p>
+                    <p className="font-label sm:text-[8px] md:text-[10px] lg:text-[12px] uppercase font-bold text-outline">{image.artist}</p>
                 </div>
             </div>
     );
