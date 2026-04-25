@@ -18,9 +18,9 @@ export default function Header() {
 
 
                 <div className="hidden md:flex items-center space-x-10 font-serif text-lg tracking-tight">
-                    <Link className="text-blue-900 border-b-2 border-blue-900 pb-1 transition-colors duration-300"
+                    <Link className="text-blue-700/60 hover:text-blue-900 transition-colors duration-300"
                         href="#About">About</Link>
-                    <Link className="text-blue-900 border-b-2 border-blue-900 pb-1 transition-colors duration-300"
+                    <Link className="text-blue-700/60 hover:text-blue-900 transition-colors duration-300"
                         href="#Gallery">Gallery</Link>
                     <Link className="text-blue-700/60 hover:text-blue-900 transition-colors duration-300"
                         href="#Upcoming">Upcoming Events</Link>
