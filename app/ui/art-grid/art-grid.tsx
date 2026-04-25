@@ -8,7 +8,7 @@ export default function ArtGrid() {
     const images: GalleryImageProperties[] = getImages();
 
     return (
-        <section id="Gallery">
+        <section id="Gallery" className="py-12">
             <ArtGridHeader/>
             <div className="art-grid mx-16 px-12 " id="gallery-grid">
                 {images.map((image: GalleryImageProperties) => {

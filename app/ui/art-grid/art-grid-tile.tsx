@@ -6,6 +6,7 @@ export default function ArtGridTile({image}: {image: GalleryImageProperties}) {
 
     const ratio = image.width / image.height;
     const aspectClass = ratio > 1 ? "aspect-[4/3]" : "aspect-[3/4]";
+    //const aspectClass = "aspect-[16/9]";
 
     return (
             <div className="art-item group" id="image-{image.id}">
@@ -23,7 +24,7 @@ export default function ArtGridTile({image}: {image: GalleryImageProperties}) {
                             <p key={`line-${id}`} className="font-headline italic text-on-surface-variant text-sm mb-1">{line}</p>
                         )
                     })}
-                    <p className="font-label text-[10px] tracking-[0.05em] text-outline">{image.artist}</p>
+                    <p className="font-label text-[10px] tracking-[0.1em] uppercase font-bold text-outline">{image.artist}</p>
                 </div>
             </div>
     );
