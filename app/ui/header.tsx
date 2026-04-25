@@ -47,9 +47,9 @@ export default function Header() {
 
                 {/* Vertical Links */}
                 <nav className="mt-12 flex flex-col gap-6">
-                    <Link className="text-blue-900 border-b-2 border-blue-900 pb-1 transition-colors duration-300"
+                    <Link className="text-blue-700/60 hover:text-blue-900 transition-colors duration-300"
                         href="#About">About</Link>
-                    <Link className="text-blue-900 border-b-2 border-blue-900 pb-1 transition-colors duration-300"
+                    <Link className="text-blue-700/60 hover:text-blue-900 transition-colors duration-300"
                         href="#Gallery">Gallery</Link>
                     <Link className="text-blue-700/60 hover:text-blue-900 transition-colors duration-300"
                         href="#Upcoming">Upcoming Events</Link>
