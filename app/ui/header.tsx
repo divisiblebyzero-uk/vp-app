@@ -9,7 +9,7 @@ export default function Header() {
     return (
         <header className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-xl shadow-sm">
             <nav className="flex justify-between items-center px-12 py-6 max-w-screen-2xl mx-auto">
-                <div className="font-serif italic text-2xl text-blue-900">Victoria Printmakers</div>
+                <div className="font-headline italic text-2xl text-blue-900">Victoria Printmakers</div>
 
                 <button onClick={toggleMenu} className="text-blue-900 md:hidden">
                     {isOpen ? "✕" : "☰"} {/* Simplified for example */}
@@ -17,7 +17,7 @@ export default function Header() {
 
 
 
-                <div className="hidden md:flex items-center space-x-10 font-serif text-lg tracking-tight">
+                <div className="hidden md:flex items-center space-x-10 font-body text-lg tracking-tight">
                     <Link className="text-blue-700/60 hover:text-blue-900 transition-colors duration-300"
                         href="#About">About</Link>
                     <Link className="text-blue-700/60 hover:text-blue-900 transition-colors duration-300"
@@ -47,15 +47,15 @@ export default function Header() {
 
                 {/* Vertical Links */}
                 <nav className="mt-12 flex flex-col gap-6">
-                    <Link className="text-blue-700/60 hover:text-blue-900 transition-colors duration-300"
+                    <Link className="text-blue-700/60 hover:text-blue-900 transition-colors duration-300" onClick={() => setIsOpen(false)}
                         href="#About">About</Link>
-                    <Link className="text-blue-700/60 hover:text-blue-900 transition-colors duration-300"
+                    <Link className="text-blue-700/60 hover:text-blue-900 transition-colors duration-300" onClick={() => setIsOpen(false)}
                         href="#Gallery">Gallery</Link>
-                    <Link className="text-blue-700/60 hover:text-blue-900 transition-colors duration-300"
+                    <Link className="text-blue-700/60 hover:text-blue-900 transition-colors duration-300" onClick={() => setIsOpen(false)}
                         href="#Upcoming">Upcoming Events</Link>
-                    <Link className="text-blue-700/60 hover:text-blue-900 transition-colors duration-300"
+                    <Link className="text-blue-700/60 hover:text-blue-900 transition-colors duration-300" onClick={() => setIsOpen(false)}
                         href="#Past">Past Events</Link>
-                    <Link className="text-blue-700/60 hover:text-blue-900 transition-colors duration-300"
+                    <Link className="text-blue-700/60 hover:text-blue-900 transition-colors duration-300" onClick={() => setIsOpen(false)}
                         href="#Contact">Contact</Link>
                 </nav>
             </div>
