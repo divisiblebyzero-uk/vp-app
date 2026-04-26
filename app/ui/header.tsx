@@ -27,6 +27,8 @@ export default function Header() {
                     <Link className="text-blue-700/60 hover:text-blue-900 transition-colors duration-300"
                         href="#Past">Past Events</Link>
                     <Link className="text-blue-700/60 hover:text-blue-900 transition-colors duration-300"
+                        href="#InMemoriam">In Memoriam</Link>
+                    <Link className="text-blue-700/60 hover:text-blue-900 transition-colors duration-300"
                         href="#Contact">Contact</Link>
                 </div>
 
@@ -55,6 +57,8 @@ export default function Header() {
                         href="#Upcoming">Upcoming Events</Link>
                     <Link className="text-blue-700/60 hover:text-blue-900 transition-colors duration-300" onClick={() => setIsOpen(false)}
                         href="#Past">Past Events</Link>
+                    <Link className="text-blue-700/60 hover:text-blue-900 transition-colors duration-300"
+                        href="#InMemoriam">In Memoriam</Link>
                     <Link className="text-blue-700/60 hover:text-blue-900 transition-colors duration-300" onClick={() => setIsOpen(false)}
                         href="#Contact">Contact</Link>
                 </nav>
