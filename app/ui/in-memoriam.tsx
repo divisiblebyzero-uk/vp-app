@@ -12,7 +12,7 @@ import train from "../../public/Beamish-Tram114-2.jpg";
                 <div className="lg:col-span-12">
                     <h2 className="font-headline text-5xl mb-8 leading-tight">In Memoriam</h2>
                     <div className="space-y-6 font-body text-lg text-on-surface-variant leading-relaxed">
-                        <p>Honouring members who passed away recently. We want to acknowledge and thank them for being members of our community.</p>
+                        <p>Honouring members who passed away recently. We want to acknowledge and thank them for having been part of our community.</p>
                     </div>
                 </div>
                 <div className="lg:col-span-6">

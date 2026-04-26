@@ -1,9 +1,7 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
+## Victoria Printmaker Website
 
 
-First, run the development server:
+To the development server:
 
 ```bash
 npm run dev
@@ -17,21 +15,27 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Adding new images to the gallery
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Two things need to be done:
 
-## Learn More
+1. Add the actual image to the ```public/``` folder
+2. Reference the image in ```app/lib/gallery.tsx```
 
-To learn more about Next.js, take a look at the following resources:
+The structure of the reference is as follows:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+    id: unique number,
+    filename: as referenced by the website (so prefix with /, do not include the public folder)
+    alt: alt text (typically '<title> by <artist>')
+    title: the display title
+    lines: Up to three strings of text to appear under the title, eg:
+        line1: Technical Description (eg Drypoint etching)
+        line2: Dimension, print run and price
+        line3: Optional framed dimension
+    artist: the artist
+    width: width of the file in pixels
+    height: height of the file in pixels
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The width / height can be determined by inspecting the file prior to writing the reference in the gallery file.
