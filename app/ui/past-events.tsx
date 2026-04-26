@@ -19,7 +19,7 @@ export default function PastEvents() {
                     </div>
                 </div>
                 <div className="lg:col-span-6 grid grid-cols-2 gap-4">
-                    <Image className="w-full aspect-[4/5] object-cover rounded-none mt-12" alt="Ghosts in a dark street"
+                    <Image className="w-full aspect-[4/5] object-cover rounded-none" alt="Ghosts in a dark street"
                         src={flyer} />
                     <Image className="w-full aspect-[4/5] object-cover rounded-none" alt="Book cover"
                         src={lv1} />
@@ -40,7 +40,7 @@ export default function PastEvents() {
                     </div>
                 </div>
                 <div className="lg:col-span-6 grid grid-cols-2 gap-4">
-                    <Image className="w-full aspect-[4/5] object-cover rounded-none mt-12" alt="Ghosts in a dark street"
+                    <Image className="w-full aspect-[4/5] object-cover rounded-none" alt="Ghosts in a dark street"
                         src={gloria} />
                     <Image className="w-full aspect-[4/5] object-cover rounded-none" alt="Book cover"
                         src={dickens} />

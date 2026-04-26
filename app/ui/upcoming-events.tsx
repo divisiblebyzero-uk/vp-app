@@ -26,7 +26,7 @@ import munns from "../../public/Munns.jpg";
                     </div>
                 </div>
                 <div className="lg:col-span-6 grid grid-cols-2 gap-4">
-                    <Image className="w-full aspect-[4/5] object-cover rounded-none mt-12" alt="icon with roller"
+                    <Image className="w-full aspect-[4/5] object-cover rounded-none" alt="icon with roller"
                         src={vp_icon} />
                     <Image className="w-full aspect-[4/5] object-cover rounded-none" alt="red ship"
                         src={munns} />
