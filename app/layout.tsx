@@ -1,25 +1,12 @@
 import type { Metadata } from "next";
-import { Newsreader, Manrope, Work_Sans } from "next/font/google";
+import { Manrope } from "next/font/google";
 import "./globals.css";
-
-const newsreader = Newsreader({
-  variable: "--font-newsreader",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
 
 const manrope = Manrope({
   variable: "--font-manrope",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
 });
-
-const workSans = Work_Sans({
-  variable: "--font-work-sans",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
-
 
 export const metadata: Metadata = {
   title: "Victoria Printmakers",

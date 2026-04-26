@@ -14,7 +14,7 @@ export default function PastEvents() {
                         <p><b>Print Exhibtions:</b></p>
                         <p>In 2025 our summer exhibition was held at the St Andrews Art Centre on the Thames at
                             Gravesend.</p>
-                        <p>In 2022 we held 'Art on the Rails', exhibiting our work in front of the LV1 lightship, moored
+                        <p>In 2022 we held &apos;Art on the Rails&apos;, exhibiting our work in front of the LV1 lightship, moored
                             next to the Arts Centre.</p>
                     </div>
                 </div>
@@ -31,11 +31,11 @@ export default function PastEvents() {
                     <h2 className="font-headline text-5xl mb-8 leading-tight"></h2>
                     <div className="space-y-6 font-body text-lg text-on-surface-variant leading-relaxed">
                         <p><b>Dickens 150:</b></p>
-                        <p>We were well represented at the 2020 Rochester Art Gallery 'Dickens 150 Open Call'
+                        <p>We were well represented at the 2020 Rochester Art Gallery &apos;Dickens 150 Open Call&apos;
                             competition and we came away with two winning entries.</p>
-                        <p>'City Ghosts' by Gloria Holden (etching with aquatint) won the Dickens and the Victorian Way
+                        <p>&apos;City Ghosts&apos; by Gloria Holden (etching with aquatint) won the Dickens and the Victorian Way
                             of Death category, and
-                            Neil Mattingly was winner of the Cover Design category with 'The Mystery of Edwin Drood'
+                            Neil Mattingly was winner of the Cover Design category with &apos;The Mystery of Edwin Drood&apos;
                             (linocut). </p>
                     </div>
                 </div>

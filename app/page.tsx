@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Header from "./ui/header";
 import Hero from "./ui/hero";
 import ArtGrid from "./ui/art-grid/art-grid";
