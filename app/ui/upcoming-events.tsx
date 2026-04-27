@@ -17,10 +17,12 @@ import munns from "../../public/Munns.jpg";
                             back at Munns again this year.</p>
                         <div className="space-y-4 mb-10">
                             <div className="flex items-center gap-4 text-on-surface">
-                                <span className="space-y-6 font-body text-lg text-on-surface-variant leading-relaxed">Dates: 30th May to 7th June, 2026</span>
+                                <span className="font-body">
+                                    Dates: 30th May to 7th June, 2026</span>
                             </div>
                             <div className="flex items-center gap-4 text-on-surface">
-                                <span className="font-label">Location: Munns of Gravesend, DA12 1AE.</span>
+                                <span className="font-body">
+                                    Location: Munns of Gravesend, DA12 1AE.</span>
                             </div>
                         </div>
                     </div>
