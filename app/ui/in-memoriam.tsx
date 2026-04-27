@@ -16,7 +16,7 @@ import train from "../../public/Beamish-Tram114-2.jpg";
                     </div>
                 </div>
                 <div className="lg:col-span-6">
-                        <p><b>Chrstine Elander</b></p>
+                        <p><b>Christine Elander</b></p>
                         <Image className="w-full aspect-[4/5] object-cover rounded-none" alt="icon with roller" src={windmill} />
                 </div>
                 <div className="lg:col-span-6">
