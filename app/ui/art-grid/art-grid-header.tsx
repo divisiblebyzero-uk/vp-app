@@ -1,7 +1,7 @@
 export default function ArtGridHeader() {
     return (
 
-            <div className="mb-16 mx-12 py-12 flex justify-between items-end mb-20">
+            <div className="py-32 px-12 max-w-screen-2xl mx-auto">
                 <div>
                     <h2 className="font-headline text-5xl mb-4 text-on-surface">Artists&apos; Gallery</h2>
                     <p className="font-body text-on-surface-variant max-w-md">
