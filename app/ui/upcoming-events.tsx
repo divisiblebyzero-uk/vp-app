@@ -1,5 +1,5 @@
 import Image from "next/image";
-import vp_icon from "../../public/vp_icon.png";
+import vp_icon from "../../public/Munns 26 Poster A4 3rd.png";
 import munns from "../../public/Munns.jpg";
 
  export default function UpcomingEvents() {
