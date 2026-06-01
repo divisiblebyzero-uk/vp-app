@@ -15,7 +15,7 @@ export default function Hero() {
             <div className="relative z-10 max-w-screen-2xl mx-auto px-12 w-full">
                 <div className="max-w-2xl">
                     <span className="font-label text-sm uppercase tracking-[0.3em] text-primary mb-6 block">Est. 2015</span>
-                    <h1 className="font-headline text-6xl md:text-8xl leading-tight text-on-surface mb-8"><i>The Art of Printmaking</i></h1>
+                    <h1 className="font-headline text-4xl md:text-8xl leading-tight text-on-surface mb-8"><i>The Art of Printmaking</i></h1>
                     <p className="font-body text-xl text-on-surface-variant leading-relaxed mb-10 max-w-lg">
                         The Victoria Printmakers are a group of Kent based artists who meet regularly to explore
                         printmaking techniques, exchange ideas and enjoy mutual support.
