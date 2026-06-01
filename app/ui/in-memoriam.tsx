@@ -1,6 +1,6 @@
 import Image from "next/image";
 import windmill from "../../public/Meopham-Windmill-Cex.jpg";
-import train from "../../public/Beamish-Tram114-2.jpg";
+import dungeness from "../../public/Dungeness-PCx.jpg"
 
  export default function InMemoriam() {
 
@@ -21,7 +21,7 @@ import train from "../../public/Beamish-Tram114-2.jpg";
                 </div>
                 <div className="lg:col-span-6">
                         <p><b>Pauline Cunningham</b></p>
-                        <Image className="w-full aspect-[4/5] object-cover rounded-none" alt="icon with roller" src={train} />
+                        <Image className="w-full aspect-[4/5] object-cover rounded-none" alt="icon with roller" src={dungeness} />
                 </div>
             </div>
         </section>
