@@ -15,14 +15,15 @@ import dungeness from "../../public/Dungeness-PCx.jpg"
                         <p>Honouring members who passed away recently. We want to acknowledge and thank them for having been part of our community.</p>
                     </div>
                 </div>
-                <div className="lg:col-span-6">
+                <div className="lg:col-span-4">
                         <p><b>Christine Elander</b></p>
                         <Image className="w-full aspect-[4/5] object-cover rounded-none" alt="windmill" src={windmill} />
                 </div>
-                <div className="lg:col-span-6">
+                <div className="lg:col-span-4">
                         <p><b>Pauline Cunningham</b></p>
                         <Image className="w-full aspect-[4/5] object-cover rounded-none" alt="boat on beach" src={dungeness} />
                 </div>
+                               
             </div>
         </section>
     );
