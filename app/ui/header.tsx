@@ -11,8 +11,7 @@ export default function Header() {
     const NAV_LINKS: { id: string; label: string }[] = [
         { id: 'About', label: 'About' },
         { id: 'Gallery', label: 'Gallery' },
-        { id: 'Upcoming', label: 'Upcoming Events' },
-        { id: 'Past', label: 'Past Events' },
+        { id: 'Events', label: 'Events' },
         { id: 'InMemoriam', label: 'In Memoriam' },
         { id: 'Contact', label: 'Contact' },
     ];

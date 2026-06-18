@@ -3,11 +3,45 @@ import flyer from "../../public/flyer2025.jpg";
 import lv1 from "../../public/LV1_drama.jpg";
 import gloria from "../../public/Gloria-Holden-City-Ghosts.jpg";
 import dickens from "../../public/Neil-Mattingly-The-Mystery-of-Edwin-Drood-Cover.jpg";
+import vp_icon from "../../public/Munns 26 Poster A4 3rd.png";
+import munns from "../../public/Munns.jpg";
+import Link from "next/link";
 
-export default function PastEvents() {
+export default function Events() {
     return (
-        <section id="Past" className="py-32 px-12 max-w-screen-2xl mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+        <section id="Events" className="py-32 px-12 max-w-screen-2xl mx-auto">
+
+             <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center py-16">
+                <div className="lg:col-span-5">
+                    <h2 className="font-headline text-5xl mb-8 leading-tight">Recent Event</h2>
+                    <div className="space-y-6 font-body text-lg text-on-surface-variant leading-relaxed">
+                        <p><b>
+                            <Link href="https://graveshamfringe.org/" className="transition-colors duration-300 hover:text-blue-900 text-blue-700/60">
+                                Gravesham Fringe Festival
+                            </Link>
+                        </b></p>
+                        <p> We put together an exhibit for the Gravesham Fringe. We were back at Munns , where we also exhibited in 2023.</p>
+                        <div className="space-y-4 mb-10">
+                            <div className="flex items-center gap-4 text-on-surface">
+                                <span className="font-body">
+                                    Dates: 30th May to 7th June, 2026</span>
+                            </div>
+                            <div className="flex items-center gap-4 text-on-surface">
+                                <span className="font-body">
+                                    Location: Munns of Gravesend, DA12 1AE.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="lg:col-span-6 grid grid-cols-2 gap-4">
+                    <Image className="w-full aspect-[4/5] object-cover rounded-none" alt="icon with roller"
+                        src={vp_icon} />
+                    <Image className="w-full aspect-[4/5] object-cover rounded-none" alt="red ship"
+                        src={munns} />
+                </div>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center py-16">
                 <div className="lg:col-span-5">
                     <h2 className="font-headline text-5xl mb-8 leading-tight">Past Events</h2>
                     <div className="space-y-6 font-body text-lg text-on-surface-variant leading-relaxed">
