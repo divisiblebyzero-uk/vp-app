@@ -1,10 +1,10 @@
 import Image from "next/image";
 import flyer from "../../public/flyer2025.jpg";
-import lv1 from "../../public/LV1_drama.jpg";
 import gloria from "../../public/Gloria-Holden-City-Ghosts.jpg";
 import dickens from "../../public/Neil-Mattingly-The-Mystery-of-Edwin-Drood-Cover.jpg";
 import vp_icon from "../../public/Munns 26 Poster A4 3rd.png";
 import munns from "../../public/Munns.jpg";
+import clubbs26 from "../../public/2026ClubbsYardFlyer.jpg";
 import Link from "next/link";
 
 export default function Events() {
@@ -13,31 +13,30 @@ export default function Events() {
 
              <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center py-16">
                 <div className="lg:col-span-5">
-                    <h2 className="font-headline text-5xl mb-8 leading-tight">Recent Event</h2>
+                    <h2 className="font-headline text-5xl mb-8 leading-tight">Upcoming Event</h2>
                     <div className="space-y-6 font-body text-lg text-on-surface-variant leading-relaxed">
                         <p><b>
-                            <Link href="https://graveshamfringe.org/" className="transition-colors duration-300 hover:text-blue-900 text-blue-700/60">
-                                Gravesham Fringe Festival
+                            <Link href="https://www.opennorthfleet.co.uk/" className="transition-colors duration-300 hover:text-blue-900 text-blue-700/60">
+                                Open Northfleet
                             </Link>
                         </b></p>
-                        <p> We put together an exhibit for the Gravesham Fringe. We were back at Munns , where we also exhibited in 2023.</p>
+                        <p> A pop-up exhibition.</p>
                         <div className="space-y-4 mb-10">
                             <div className="flex items-center gap-4 text-on-surface">
                                 <span className="font-body">
-                                    Dates: 30th May to 7th June, 2026</span>
+                                    Dates: 3rd October 2026</span>
                             </div>
                             <div className="flex items-center gap-4 text-on-surface">
                                 <span className="font-body">
-                                    Location: Munns of Gravesend, DA12 1AE.</span>
+                                    Location: Clubbs Yard, Northfleet, DA11 8RH.</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="lg:col-span-6 grid grid-cols-2 gap-4">
-                    <Image className="w-full aspect-[4/5] object-cover rounded-none" alt="icon with roller"
-                        src={vp_icon} />
-                    <Image className="w-full aspect-[4/5] object-cover rounded-none" alt="red ship"
-                        src={munns} />
+                    <Image className="w-full aspect-[4/5] object-cover rounded-none" alt="Second 2026 event flyer"
+                        src={clubbs26} />
+
                 </div>
             </div>
 
@@ -46,6 +45,7 @@ export default function Events() {
                     <h2 className="font-headline text-5xl mb-8 leading-tight">Past Events</h2>
                     <div className="space-y-6 font-body text-lg text-on-surface-variant leading-relaxed">
                         <p><b>Print Exhibtions:</b></p>
+                        <p> In 2026 we had an exhibition for the Gravesham Fringe. We were back at Munns, where we also exhibited in 2023.</p>
                         <p>In 2025 our summer exhibition was held at the St Andrews Art Centre on the Thames at
                             Gravesend.</p>
                         <p>In 2022 we held &apos;Art on the Rails&apos;, exhibiting our work in front of the LV1 lightship, moored
@@ -53,10 +53,10 @@ export default function Events() {
                     </div>
                 </div>
                 <div className="lg:col-span-6 grid grid-cols-2 gap-4">
-                    <Image className="w-full aspect-[4/5] object-cover rounded-none" alt="Ghosts in a dark street"
+                    <Image className="w-full aspect-[4/5] object-cover rounded-none" alt="2025 events flyer"
                         src={flyer} />
-                    <Image className="w-full aspect-[4/5] object-cover rounded-none" alt="Book cover"
-                        src={lv1} />
+                    <Image className="w-full aspect-[4/5] object-cover rounded-none" alt="First 2026 event flyer"
+                        src={vp_icon} />
                 </div>
             </div>
 
