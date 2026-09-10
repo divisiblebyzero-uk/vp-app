@@ -3,7 +3,6 @@ import flyer from "../../public/flyer2025.jpg";
 import gloria from "../../public/Gloria-Holden-City-Ghosts.jpg";
 import dickens from "../../public/Neil-Mattingly-The-Mystery-of-Edwin-Drood-Cover.jpg";
 import vp_icon from "../../public/Munns 26 Poster A4 3rd.png";
-import munns from "../../public/Munns.jpg";
 import clubbs26 from "../../public/2026ClubbsYardFlyer.jpg";
 import Link from "next/link";
 
