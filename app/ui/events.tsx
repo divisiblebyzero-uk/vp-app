@@ -9,10 +9,13 @@ import Link from "next/link";
 export default function Events() {
     return (
         <section id="Events" className="py-32 px-12 max-w-screen-2xl mx-auto">
-
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+                <div className="lg:col-span-12">
+                    <h2 className="font-headline text-5xl mb-8 leading-tight">Past Events</h2>
+                </div>                            
+            </div>
              <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center py-16">
                 <div className="lg:col-span-5">
-                    <h2 className="font-headline text-5xl mb-8 leading-tight">Upcoming Event</h2>
                     <div className="space-y-6 font-body text-lg text-on-surface-variant leading-relaxed">
                         <p><b>
                             <Link href="https://www.opennorthfleet.co.uk/" className="transition-colors duration-300 hover:text-blue-900 text-blue-700/60">
@@ -41,7 +44,7 @@ export default function Events() {
 
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center py-16">
                 <div className="lg:col-span-5">
-                    <h2 className="font-headline text-5xl mb-8 leading-tight">Past Events</h2>
+                   
                     <div className="space-y-6 font-body text-lg text-on-surface-variant leading-relaxed">
                         <p><b>Print Exhibtions:</b></p>
                         <p> In 2026 we had an exhibition for the Gravesham Fringe. We were back at Munns, where we also exhibited in 2023.</p>
